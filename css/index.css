@@ -21,7 +21,10 @@ img {
     border-width: 10px;
     border-color: pink
 }
-
+.card-img-top {
+    width: 200px;
+    height: 300px;
+}
 
 
 .fotto {
@@ -39,16 +42,21 @@ img {
     height: 150px;
     border-style: solid ;
     border-width: 10px;
-    border-color: pink
+    border-color: pink;
 }
 
+.nav-link {
+    color: pink;
+}
 
-
-h2 {
+.navbar-brand { 
     margin: 10px;
     padding: 5px;
     font-family: 'Dancing Script', cursive;
+   color: pink;
 }
+
+
 
 p {
     font-family: 'Noto Sans JP', sans-serif;
@@ -109,8 +117,28 @@ h4 {
     text-align: center;
 }
 
+
+h6 {
+    text-align: center;
+}
+
 .navbar-brand {
     font-size: 3.5rem;
     color: pink
 }
 
+h4 {
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+    color: pink;
+    
+}
+
+h5 {
+    text-align: center;  
+}
+
+element.style {
+    background-color: pink;
+}
