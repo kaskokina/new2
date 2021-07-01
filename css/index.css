@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+
+img {
+    width: 200px;
+}
+
+.chosen {
+    width: 200px;
+    height: 200px;
+    border-style: solid ;
+    border-width: 10px;
+    border-color: pink
+}
+
+
+
+.fotto {
+    width: 200px;
+    height: 132px;  
+}
+
+.topi {
+    width: 200px;
+    height: 150px;
+}
+
+.topi {
+    width: 200px;
+    height: 150px;
+    border-style: solid ;
+    border-width: 10px;
+    border-color: pink
+}
+
+
+
+h2 {
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.menu a {
+    display: block;
+    color: pink;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 3.5rem;
+    text-align: center;
+    color: pink;
+}
+
+
+.menu a:hover {
+font-weight: bolder;
+}
+
+header .banner {
+    background-image: url(../img/yagodu.jpg) ;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: pink;
+}
+
+.products {
+    border: 1px solid black;
+     
+}
+
+h2 
+{
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}
+
+.products {
+  text-align: center; 
+}
+
+.buttons{
+   display: flex;
+   justify-content: space-around;
+}
+
+h4 {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 3.5rem;
+    color: pink
+}
+
