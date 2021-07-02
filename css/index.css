@@ -1,17 +1,19 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 
+.carusel-container {
+    max-width: 70%; 
+    display: block;
+    margin: auto;
+}
 
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
-
-
-img {
-    width: 200px;
+ .banner1 {
+    background-image: url(../img/yagodu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .chosen {
@@ -21,11 +23,11 @@ img {
     border-width: 10px;
     border-color: pink
 }
+
 .card-img-top {
     width: 200px;
     height: 300px;
 }
-
 
 .fotto {
     width: 200px;
@@ -50,13 +52,10 @@ img {
 }
 
 .navbar-brand { 
-    margin: 10px;
-    padding: 5px;
+  
     font-family: 'Dancing Script', cursive;
-   color: pink;
+  
 }
-
-
 
 p {
     font-family: 'Noto Sans JP', sans-serif;
@@ -74,7 +73,6 @@ p {
     color: pink;
 }
 
-
 .menu a:hover {
 font-weight: bolder;
 }
@@ -91,7 +89,7 @@ header .banner {
 
 .products {
     border: 1px solid black;
-     
+
 }
 
 h2 
@@ -117,14 +115,8 @@ h4 {
     text-align: center;
 }
 
-
 h6 {
     text-align: center;
-}
-
-.navbar-brand {
-    font-size: 3.5rem;
-    color: pink
 }
 
 h4 {
@@ -132,7 +124,6 @@ h4 {
     padding: 5px;
     font-family: 'Dancing Script', cursive;
     color: pink;
-    
 }
 
 h5 {
@@ -140,5 +131,24 @@ h5 {
 }
 
 element.style {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+}
+
+div.one-block {
+
+    display: grid;
+    grid-template-columns: 50% 50%;;
+}
+
+div.products {
+    background-color: pink;
+}
+
+div.one-block {
     background-color: pink;
 }
