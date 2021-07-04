@@ -72,6 +72,11 @@ p {
     text-align: center;
     color: pink;
 }
+.logoo {
+    font-size: 1rem;
+    text-align: center;
+    color: pink;
+}
 
 .menu a:hover {
 font-weight: bolder;
@@ -111,7 +116,7 @@ h3
    justify-content: space-around;
 }
 
-h4 {
+.our {
     text-align: center;
 }
 
@@ -119,11 +124,11 @@ h6 {
     text-align: center;
 }
 
-h4 {
-    margin: 10px;
-    padding: 5px;
+.our {
+text-align: center;
+    padding: 10px;
     font-family: 'Dancing Script', cursive;
-    color: pink;
+    
 }
 
 h5 {
@@ -145,6 +150,17 @@ div.one-block {
     grid-template-columns: 50% 50%;;
 }
 
+a.knopka {
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: pink; /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+  } 
+  a.knopka:hover { background: pink; } /* при наведении курсора мышки */
+  a.knopka:active { background: pink; } /* при нажатии */
+
 div.products {
     background-color: pink;
 }
@@ -152,3 +168,35 @@ div.products {
 div.one-block {
     background-color: pink;
 }
+
+.block {
+    background-image: url(../img/abrikoce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    min-height: 400px;
+   
+    padding: 80px; 
+}
+.block1 {
+ text-align: center;
+
+}
+.carousel-inner {
+    max-width: 70%; 
+    display: block;
+    margin: auto;
+}
+
+.interior {
+    background-color: pink;
+}
+
+h3 {
+    color: pink;
+}
+
+div.contacts {
+    color: pink;
+    text-align: center;
+}
+
